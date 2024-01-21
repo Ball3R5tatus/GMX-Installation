@@ -1,4 +1,19 @@
+# GMX-Installation with mini-conda using WSL2
 
+The objective is to harness the power of your GPU for molecular dynamics mining, enhancing computational efficiency and accelerating simulations.
+
+## Description
+
+Install GROMACS in MiniConda by creating a dedicated environment, ensuring compatibility and leveraging informatics skills for molecular dynamic simulations.
+
+## Getting Started
+
+### Dependencies
+
+* WSL updated to version 2.0 - WSL version 1.0 will not let you use your GPU
+* You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11
+* GROMACS version : 2023.3-conda_forge
+* Windows 10
 
 * 1. Install WSL
 
