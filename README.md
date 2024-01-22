@@ -146,7 +146,7 @@ gmx --version
 * **Create a 300GB Swap File** - Run the following command to create a 300GB swap file and make it permanent. Please note that this process might take some time and adjust the size according to your requirement:
 
 ```bash
-sudo dd if=/dev/zero of=~/swapfile bs=1G count=200
+sudo dd if=/dev/zero of=~/swapfile bs=1G count=300
 sudo chmod 600 ~/swapfile
 sudo mkswap ~/swapfile
 sudo swapon ~/swapfile
