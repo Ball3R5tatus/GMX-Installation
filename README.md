@@ -155,7 +155,6 @@ echo '~/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
 ```
 This line ensures that your swap file is activated during the system startup, making the swap configuration persistent.
 
-bash
 ## Help
 
 
