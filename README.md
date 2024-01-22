@@ -143,7 +143,7 @@ gmx --version
 
 ## Increase swap space 
 * **Swap Space** - Swap space is a crucial component that provides additional virtual memory when physical RAM is insufficient. While it helps prevent out-of-memory issues, excessive swapping can impact performance
-* **Create a 300GB Swap File:** - Run the following command to create a 200GB swap file and make it permanent. Please note that this process might take some time and adjust the size according to your requirement:
+* **Create a 300GB Swap File** - Run the following command to create a 200GB swap file and make it permanent. Please note that this process might take some time and adjust the size according to your requirement:
 
 ```bash
 sudo dd if=/dev/zero of=~/swapfile bs=1G count=200
