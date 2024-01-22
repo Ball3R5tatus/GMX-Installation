@@ -141,7 +141,7 @@ gmx --version
 
 ![image](https://github.com/Ball3R5tatus/GMX-Installation/assets/122488999/40b5fa05-86cb-4529-809b-64f7037f4d1c)
 
-## Increase swap space 
+## Increase Swap Space 
 * **Swap Space** - Swap space is a crucial component that provides additional virtual memory when physical RAM is insufficient. While it helps prevent out-of-memory issues, excessive swapping can impact performance
 * **Create a 300GB Swap File** - Run the following command to create a 300GB swap file and make it permanent. Please note that this process might take some time and adjust the size according to your requirement:
 
