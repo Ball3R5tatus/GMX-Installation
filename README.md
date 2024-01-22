@@ -1,4 +1,4 @@
-# GROMACS Installation with Mini-conda using WSL2
+# GROMACS Installation with miniconda3 using WSL2
 
 The objective is to harness the power of your GPU for molecular dynamics mining, enhancing computational efficiency and accelerating simulations.
 
