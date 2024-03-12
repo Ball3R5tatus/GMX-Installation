@@ -106,6 +106,25 @@ Download and install [MiniConda3](https://docs.conda.io/projects/miniconda/en/la
 ## CUDATOOLKIT 12.3 Installation
 Follow the NVIDIA documentation to install [CUDATOOLKIT 12.3](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local) for Linux.
 
+In WSL, you might need to manually add the CUDA bin directory to your PATH since the installation process might not do it automatically.
+
+```
+nano ~/.bashrc
+```
+Add the CUDA bin directory to your PATH. Append the following line to the end of the file:
+```
+export PATH=/usr/local/cuda/bin:$PATH
+```
+After saving the file, reload your shell configuration to apply the changes:
+```
+source ~/.bashrc
+```
+You can verify that nvcc is now available by running:
+```
+nvcc --version
+```
+This should display the version of CUDA installed on your system.
+
 ## GROMACS Installation
 * **Create Conda Environment**
 ```
